@@ -3,26 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <title>A Little History of the World Wide Web</title>
     <style>
-        table,th,td{
-            border: 2px solid black;
-        }
+      table,
+      td {
+        border: 2px solid black;
+      }
     </style>
   </head>
   <body>
-    <a href="#abcd">Go Down</a><br> <!--# means id and . means class
-    i want to go to the code no 554 (particular section of the code using id)--> 
-      <!--for icon purpose-->    
-    <a href="mailto:abc@gmail.com"><i class="fa-solid fa-envelope"></i></a><br> <!--for mailing purpose-->
-    	
+    <a href="#abcd">Go Down</a><br />
+    <!--# means id and . means class
+    i want to go to the code no 554 (particular section of the code using id)-->
+    <!--for icon purpose-->
+    <a href="mailto:abc@gmail.com"><i class="fa-solid fa-envelope"></i></a
+    ><br />
+    <!--for mailing purpose-->
 
-    <a href="tel:7620730045"><i class="fa-solid fa-phone"></i> </a><br>
+    <a href="tel:7620730045"><i class="fa-solid fa-phone"></i> </a><br />
     <!--&#128516;  emoji-->>
-      <!-- &gt; greater than symbol-->
-      <!-- &nbsp non breakable -->
+    <!-- &gt; greater than symbol-->
+    <!-- &nbsp non breakable -->
     <p></p>
     <a href="https://www.w3.org/" target="_blank"
       ><img
@@ -566,7 +575,8 @@ Types :
       </ul>
       <hr />
     </div>
-    <div class="mydiv" id="abcd">  <!--class and id used to recognize the div in css 
+    <div class="mydiv" id="abcd">
+      <!--class and id used to recognize the div in css 
         class can have same name
         but id must be unique for each and every div
     -->
@@ -589,21 +599,45 @@ Types :
     </div>
     <!--Tables-->
     <table>
-        <tr>
-            <th>s.no</th>
-            <th>name</th>
-            <th>age</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>ashish</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>suyash</td>
-            <td>19</td>
-        </tr>
+      <tr>
+        <th>s.no</th>
+        <th>name</th>
+        <th>age</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td rowspan="2">ashish</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td rowspan="2"></td>
+        <td>2</td>
+        <td>19</td>
+      </tr>
+    </table>
+
+    <h1>Table with Borders and Padding</h1>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Job Title</th>
+        <th>Email Address</th>
+      </tr>
+      <tr>
+        <td>Anna Fitzgerald</td>
+        <td>Staff Writer</td>
+        <td>example@company.com</td>
+      </tr>
+      <tr>
+        <td>John Smith</td>
+        <td>Marketing Manager</td>
+        <td>example2@company.com</td>
+      </tr>
+      <tr>
+        <td>Zendaya Grace</td>
+        <td>CEO</td>
+        <td>example2@company.com</td>
+      </tr>
     </table>
   </body>
 </html>
